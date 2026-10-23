@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key><string>en</string>
+	<key>CFBundleDisplayName</key><string>FolderSafe</string>
+	<key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+	<key>CFBundleName</key><string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key><string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key><string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key><string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FSBundlePrefix</key><string>$(FS_BUNDLE_PREFIX)</string>
+	<key>FSAppGroup</key><string>$(FS_APP_GROUP)</string>
+	<key>FSKeychainGroup</key><string>$(FS_KEYCHAIN_GROUP)</string>
+	<key>NSHumanReadableCopyright</key><string>© 2026 FolderSafe</string>
+	<key>EXAppExtensionAttributes</key>
+	<dict>
+		<key>EXExtensionPointIdentifier</key><string>com.apple.fskit.fsmodule</string>
+		<key>FSShortName</key><string>foldersafe</string>
+		<key>FSSupportsPathURLs</key><true/>
+		<key>FSSupportsBlockResources</key><false/>
+		<key>FSSupportsGenericURLResources</key><false/>
+		<key>FSRequiresSecurityScopedPathURLResources</key><false/>
+		<key>FSMediaTypes</key><dict/>
+		<key>FSPersonalities</key><dict/>
+		<key>FSActivateOptionSyntax</key><dict><key>shortOptions</key><string>o:</string></dict>
+	</dict>
+</dict>
+</plist>

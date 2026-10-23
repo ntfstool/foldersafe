@@ -1,0 +1,1 @@
+../../../Shared/VaultRegistry.swift
