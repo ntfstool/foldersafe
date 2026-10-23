@@ -1,0 +1,17 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "CFBundleDisplayName" : {
+      "extractionState" : "manual",
+      "shouldTranslate" : false
+    },
+    "NSFaceIDUsageDescription" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : { "stringUnit" : { "state" : "translated", "value" : "Use Face ID to unlock your vaults." } },
+        "zh-Hans" : { "stringUnit" : { "state" : "translated", "value" : "使用面容 ID 解锁你的保险库。" } }
+      }
+    }
+  },
+  "version" : "1.0"
+}

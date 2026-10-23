@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- Extra Info.plist keys for the apps (merged with the generated Info.plist). Values come from Config/Signing.xcconfig;
+     SharedConfig.swift reads them at runtime. The extensions' own Info.plists carry the same three keys. -->
+<plist version="1.0">
+<dict>
+	<key>FSBundlePrefix</key><string>$(FS_BUNDLE_PREFIX)</string>
+	<key>FSAppGroup</key><string>$(FS_APP_GROUP)</string>
+	<key>FSKeychainGroup</key><string>$(FS_KEYCHAIN_GROUP)</string>
+</dict>
+</plist>

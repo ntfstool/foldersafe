@@ -1,0 +1,1709 @@
+{
+  "sourceLanguage": "en",
+  "strings": {
+    "%@ on": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已开启%@"
+          }
+        }
+      }
+    },
+    "%lld min": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "%lld 分钟"
+          }
+        }
+      }
+    },
+    "A folder with this name already exists and isn't empty. Choose a different name.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已有同名文件夹且不是空的，请换一个名字。"
+          }
+        }
+      }
+    },
+    "A new 12-word phrase replaces the old one. The old phrase stops working immediately.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新的 12 词短语会替换旧短语，旧短语立即失效。"
+          }
+        }
+      }
+    },
+    "A screenshot of your recovery phrase can be synced to iCloud Photos or seen by other apps. Writing the words on paper is safer. Consider deleting the screenshot.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "找回短语的截图可能同步到 iCloud 照片，也可能被其他 App 看到。抄在纸上更安全，建议删除这张截图。"
+          }
+        }
+      }
+    },
+    "A vault is an encrypted folder. While it's locked, AI agents, other apps and administrators can't read what's inside. When you unlock it, it appears in the Files app.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库是一个加密文件夹。上锁期间，AI 智能体、其他 App 和管理员都看不到里面的内容。解锁后，它会出现在“文件”App 里。"
+          }
+        }
+      }
+    },
+    "About screenshots": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "关于截图"
+          }
+        }
+      }
+    },
+    "Add Existing Vault": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加已有保险库"
+          }
+        }
+      }
+    },
+    "Add Vault": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "添加保险库"
+          }
+        }
+      }
+    },
+    "After you unlock, the vault appears in the Files app so you and other apps can open its files. Lock it again when you're done.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁后，保险库会出现在“文件”App 里，你和其他 App 都能打开其中的文件。用完请重新上锁。"
+          }
+        }
+      }
+    },
+    "Anyone who has these words can open this vault. Keep them somewhere safe and private. Don't store them in a screenshot, a note or an email.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "任何人拿到这些单词都能打开这个保险库。请放在安全、私密的地方，不要存成截图、备忘录或邮件。"
+          }
+        }
+      }
+    },
+    "At least 8 characters": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "至少 8 个字符"
+          }
+        }
+      }
+    },
+    "Auto-Lock": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自动上锁"
+          }
+        }
+      }
+    },
+    "Auto-lock is off. This vault stays unlocked until you lock it.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "自动上锁已关闭。在你手动上锁之前，这个保险库会一直保持解锁。"
+          }
+        }
+      }
+    },
+    "Back": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "返回"
+          }
+        }
+      }
+    },
+    "Cancel": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "取消"
+          }
+        }
+      }
+    },
+    "Change": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更改"
+          }
+        }
+      }
+    },
+    "Change Password": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "更改密码"
+          }
+        }
+      }
+    },
+    "Changes are still being saved": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "改动还在保存中"
+          }
+        }
+      }
+    },
+    "Check your copy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "核对一下"
+          }
+        }
+      }
+    },
+    "Choose a Folder…": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择文件夹…"
+          }
+        }
+      }
+    },
+    "Choose where to keep it": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "选择存放位置"
+          }
+        }
+      }
+    },
+    "Confirm Password": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "确认密码"
+          }
+        }
+      }
+    },
+    "Continue": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "继续"
+          }
+        }
+      }
+    },
+    "Contracts": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "合同"
+          }
+        }
+      }
+    },
+    "Create": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "生成"
+          }
+        }
+      }
+    },
+    "Create New Recovery Phrase": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "生成新的找回短语"
+          }
+        }
+      }
+    },
+    "Create Vault": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "创建保险库"
+          }
+        }
+      }
+    },
+    "Create a Vault": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新建保险库"
+          }
+        }
+      }
+    },
+    "Create a password": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置密码"
+          }
+        }
+      }
+    },
+    "Current Password": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "当前密码"
+          }
+        }
+      }
+    },
+    "Desktop": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "桌面"
+          }
+        }
+      }
+    },
+    "Documents": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "文稿"
+          }
+        }
+      }
+    },
+    "Done": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "完成"
+          }
+        }
+      }
+    },
+    "Encrypted on this iPhone": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在这台 iPhone 上加密"
+          }
+        }
+      }
+    },
+    "Enter the 12 words in order, separated by spaces.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "按顺序输入 12 个单词，用空格分隔。"
+          }
+        }
+      }
+    },
+    "Enter the vault's password once to turn on %@ for “%@” on this iPhone.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输入一次保险库密码，即可在这台 iPhone 上为“%2$@”开启%1$@。"
+          }
+        }
+      }
+    },
+    "Enter these words from your recovery phrase to make sure you wrote it down correctly.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "输入找回短语中的这几个单词，确认你抄写无误。"
+          }
+        }
+      }
+    },
+    "Face ID": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "面容 ID"
+          }
+        }
+      }
+    },
+    "Face ID isn't available. Check that Face ID and a passcode are set up on this iPhone.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "面容 ID 不可用。请确认这台 iPhone 已设置面容 ID 和锁屏密码。"
+          }
+        }
+      }
+    },
+    "Face ID unlock isn't available for this vault right now. Unlock with your password.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这个保险库暂时无法用面容 ID 解锁，请用密码解锁。"
+          }
+        }
+      }
+    },
+    "Face ID unlock was turned off because the Face ID settings on this iPhone changed. Unlock with your password, then turn it on again in Vault Settings.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "由于这台 iPhone 的面容 ID 设置有变化，面容 ID 解锁已关闭。请先用密码解锁，再到“保险库设置”里重新开启。"
+          }
+        }
+      }
+    },
+    "Fair": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "一般"
+          }
+        }
+      }
+    },
+    "Files app location": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“文件”App 中的位置"
+          }
+        }
+      }
+    },
+    "FolderSafe": {
+      "shouldTranslate": false
+    },
+    "FolderSafe can't see or reset your password. If you forget it, only your recovery phrase can open this vault.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FolderSafe 看不到也无法重设你的密码。忘记密码时，只有找回短语能打开这个保险库。"
+          }
+        }
+      }
+    },
+    "FolderSafe creates a normal folder there that contains only encrypted data. If the location is iCloud Drive, it syncs like any other folder, and the encryption happens on this iPhone first.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FolderSafe 会在那里新建一个普通文件夹，里面只有加密后的数据。如果放在 iCloud 云盘，它会像其他文件夹一样同步，加密在这台 iPhone 上完成后才上传。"
+          }
+        }
+      }
+    },
+    "FolderSafe doesn't collect any data and doesn't connect to the internet.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FolderSafe 不收集任何数据，也不联网。"
+          }
+        }
+      }
+    },
+    "FolderSafe doesn't have permission to use this folder anymore. Remove the vault from the list and add it again.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FolderSafe 已没有权限访问这个文件夹。请把保险库从列表中移除后重新添加。"
+          }
+        }
+      }
+    },
+    "FolderSafe is turned off in the Files app.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "FolderSafe 在“文件”App 里被关闭了。"
+          }
+        }
+      }
+    },
+    "For example: Tax 2025": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "例如：2025 报税"
+          }
+        }
+      }
+    },
+    "Forgot Password? Reset with Recovery Phrase": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "忘记密码？用找回短语重设"
+          }
+        }
+      }
+    },
+    "Forgot your password? Use your recovery phrase": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "忘记密码？使用找回短语"
+          }
+        }
+      }
+    },
+    "Free, no account": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "免费，无需账号"
+          }
+        }
+      }
+    },
+    "Free, no account. Your password never leaves this iPhone.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "免费，无需账号。你的密码不会离开这台 iPhone。"
+          }
+        }
+      }
+    },
+    "Good": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "良好"
+          }
+        }
+      }
+    },
+    "Health Records": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "体检报告"
+          }
+        }
+      }
+    },
+    "Help": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "帮助"
+          }
+        }
+      }
+    },
+    "How It Works": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "工作方式"
+          }
+        }
+      }
+    },
+    "I've written down all 12 words": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "我已抄下全部 12 个单词"
+          }
+        }
+      }
+    },
+    "If you forget your password, these 12 words are the only way to open this vault. Write them on paper, in order.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "忘记密码时，这 12 个单词是打开保险库的唯一方法。请按顺序抄在纸上。"
+          }
+        }
+      }
+    },
+    "In Files, tap Browse, then find “%@” under Locations. You can open, edit and save files there, and other apps can use them too.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在“文件”App 中轻点“浏览”，在“位置”下找到“%@”。你可以在那里打开、编辑和保存文件，其他 App 也能使用。"
+          }
+        }
+      }
+    },
+    "Know the limits": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "了解限制"
+          }
+        }
+      }
+    },
+    "Last Unlocked": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上次解锁"
+          }
+        }
+      }
+    },
+    "Location": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "位置"
+          }
+        }
+      }
+    },
+    "Lock": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上锁"
+          }
+        }
+      }
+    },
+    "Lock After": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上锁时间"
+          }
+        }
+      }
+    },
+    "Lock All Vaults": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "全部上锁"
+          }
+        }
+      }
+    },
+    "Lock Now": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "立即上锁"
+          }
+        }
+      }
+    },
+    "Lock files away from AI agents and prying eyes": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "上锁后，AI 和其他人都打不开"
+          }
+        }
+      }
+    },
+    "Locked": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已上锁"
+          }
+        }
+      }
+    },
+    "Locks automatically %lld minutes after you unlock it or leave FolderSafe.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁或离开 FolderSafe %lld 分钟后自动上锁。"
+          }
+        }
+      }
+    },
+    "Name": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "名称"
+          }
+        }
+      }
+    },
+    "Name your vault": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "给保险库起个名字"
+          }
+        }
+      }
+    },
+    "New Password": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新密码"
+          }
+        }
+      }
+    },
+    "New Recovery Phrase": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新的找回短语"
+          }
+        }
+      }
+    },
+    "New Vault": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新建保险库"
+          }
+        }
+      }
+    },
+    "New folder: “%@”": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "新文件夹：“%@”"
+          }
+        }
+      }
+    },
+    "No files are deleted. To use the vault again, add it with “Add Existing Vault”.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不会删除任何文件。以后想再用，可以通过“添加已有保险库”加回来。"
+          }
+        }
+      }
+    },
+    "No sign-up, no ads, no in-app purchases.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无需注册，无广告，无内购。"
+          }
+        }
+      }
+    },
+    "No tracking": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无追踪"
+          }
+        }
+      }
+    },
+    "OK": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "好"
+          }
+        }
+      }
+    },
+    "On My iPhone": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "我的 iPhone"
+          }
+        }
+      }
+    },
+    "Only works on this iPhone. You can change this later in Vault Settings.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只在这台 iPhone 上有效，之后可以在“保险库设置”里更改。"
+          }
+        }
+      }
+    },
+    "Open Files App": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "打开“文件”App"
+          }
+        }
+      }
+    },
+    "Open format": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开放格式"
+          }
+        }
+      }
+    },
+    "Open it in the Files app": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "在“文件”App 里打开"
+          }
+        }
+      }
+    },
+    "Passport Scans": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "护照扫描件"
+          }
+        }
+      }
+    },
+    "Password": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "密码"
+          }
+        }
+      }
+    },
+    "Password & Recovery": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "密码与找回"
+          }
+        }
+      }
+    },
+    "Password changed.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "密码已更改。"
+          }
+        }
+      }
+    },
+    "Passwords don't match": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "两次输入的密码不一致"
+          }
+        }
+      }
+    },
+    "Pick any location from the Files app: iCloud Drive, On My iPhone, or another storage provider.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "可以选择“文件”App 里的任意位置：iCloud 云盘、“我的 iPhone”或其他存储服务。"
+          }
+        }
+      }
+    },
+    "Privacy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隐私"
+          }
+        }
+      }
+    },
+    "Privacy Policy": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "隐私政策"
+          }
+        }
+      }
+    },
+    "Recovery Phrase": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "找回短语"
+          }
+        }
+      }
+    },
+    "Remove from FolderSafe": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "从 FolderSafe 中移除"
+          }
+        }
+      }
+    },
+    "Remove from List": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "从列表中移除"
+          }
+        }
+      }
+    },
+    "Remove “%@” from FolderSafe?": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "要从 FolderSafe 中移除“%@”吗？"
+          }
+        }
+      }
+    },
+    "Removes the vault from this list only. The vault folder and its encrypted files stay where they are, and you can add it again later.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只是从列表中移除。保险库文件夹和其中的加密文件原样保留，以后可以再加回来。"
+          }
+        }
+      }
+    },
+    "Reset": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重设"
+          }
+        }
+      }
+    },
+    "Reset Password": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "重设密码"
+          }
+        }
+      }
+    },
+    "Security": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "安全"
+          }
+        }
+      }
+    },
+    "Send Feedback": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "发送反馈"
+          }
+        }
+      }
+    },
+    "Set a New Password": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置新密码"
+          }
+        }
+      }
+    },
+    "Set up Face ID and a passcode in the Settings app to use this.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请先在“设置”App 里设置面容 ID 和锁屏密码。"
+          }
+        }
+      }
+    },
+    "Settings": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "设置"
+          }
+        }
+      }
+    },
+    "Some changes from the Files app haven't been saved into the vault yet. Try again in a moment.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“文件”App 里的部分改动还没写入保险库，请稍后再试。"
+          }
+        }
+      }
+    },
+    "Some changes from the Files app haven't been saved into the vault yet. Wait a moment and try again, or lock now: the remaining changes will be saved the next time you unlock this vault.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“文件”App 里的部分改动还没写入保险库。可以稍等片刻再试，也可以立即上锁：剩下的改动会在下次解锁这个保险库时写入。"
+          }
+        }
+      }
+    },
+    "Some of the vault's files look damaged or incomplete. If the vault is in iCloud Drive, wait until it has finished downloading and try again.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库的部分文件似乎已损坏或不完整。如果保险库在 iCloud 云盘里，请等它下载完成后再试。"
+          }
+        }
+      }
+    },
+    "Some words don't match. Check your copy, or go back to see the phrase again.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "有单词对不上。请核对你抄下的内容，或返回再看一遍短语。"
+          }
+        }
+      }
+    },
+    "Something went wrong": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "出了点问题"
+          }
+        }
+      }
+    },
+    "Strong": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "强"
+          }
+        }
+      }
+    },
+    "Tax 2025": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "2025 报税"
+          }
+        }
+      }
+    },
+    "Terms of Use": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用条款"
+          }
+        }
+      }
+    },
+    "That isn't a valid recovery phrase. Check that all 12 words are spelled correctly and in the right order.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这不是有效的找回短语。请检查 12 个单词的拼写和顺序。"
+          }
+        }
+      }
+    },
+    "The name is shown in FolderSafe and the Files app. A folder with this name will hold the encrypted files.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "名字会显示在 FolderSafe 和“文件”App 里，同名文件夹用来存放加密后的文件。"
+          }
+        }
+      }
+    },
+    "The password is incorrect.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "密码不正确。"
+          }
+        }
+      }
+    },
+    "The vault couldn't be added to the Files app. Try again, or restart your iPhone if this keeps happening.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "无法把保险库加到“文件”App。请重试；如果一直这样，请重启 iPhone。"
+          }
+        }
+      }
+    },
+    "The vault folder can't be found. It may have been moved, renamed or deleted, or its storage location isn't available right now.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "找不到保险库文件夹。它可能被移动、重命名或删除了，或者所在的存储位置暂时不可用。"
+          }
+        }
+      }
+    },
+    "The vault is ready, but its location is switched off in Files. In the Files app, tap Browse, tap the More button (…) at the top, choose Edit, and turn on “%@”. Then come back and unlock again.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库已准备好，但它在“文件”App 里的位置被关掉了。请打开“文件”App，轻点“浏览”，再轻点顶部的“更多”按钮（…），选择“编辑”，打开“%@”。然后回到这里重新解锁。"
+          }
+        }
+      }
+    },
+    "The vault key is kept in this iPhone's Keychain and released only after %@. It isn't synced to other devices.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库钥匙保存在这台 iPhone 的钥匙串里，只有通过%@ 验证才会取出，不会同步到其他设备。"
+          }
+        }
+      }
+    },
+    "The vault unlocks this time only. Your password doesn't change.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "只解锁这一次，密码保持不变。"
+          }
+        }
+      }
+    },
+    "This folder isn't a vault. Choose the folder that contains the file “vault.cryptomator”.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这个文件夹不是保险库。请选择包含“vault.cryptomator”文件的那个文件夹。"
+          }
+        }
+      }
+    },
+    "This name can't be used.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "不能使用这个名字。"
+          }
+        }
+      }
+    },
+    "This recovery phrase doesn't belong to this vault.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这组找回短语不属于这个保险库。"
+          }
+        }
+      }
+    },
+    "This vault doesn't have a recovery phrase yet. Unlock it with your password, then create one in Vault Settings.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这个保险库还没有找回短语。请先用密码解锁，再到“保险库设置”里生成。"
+          }
+        }
+      }
+    },
+    "This vault is already in your list.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这个保险库已经在列表里了。"
+          }
+        }
+      }
+    },
+    "This vault uses a format that FolderSafe doesn't support.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这个保险库使用的格式 FolderSafe 不支持。"
+          }
+        }
+      }
+    },
+    "This vault was changed by a newer app and can only be read here. Update FolderSafe to make changes.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "这个保险库被更新版本的 App 修改过，在这里只能读取。更新 FolderSafe 后才能修改。"
+          }
+        }
+      }
+    },
+    "Touch ID": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "触控 ID"
+          }
+        }
+      }
+    },
+    "Turn On": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开启"
+          }
+        }
+      }
+    },
+    "Turn On %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "开启%@"
+          }
+        }
+      }
+    },
+    "Turn on FolderSafe in the Files app": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请在“文件”App 里打开 FolderSafe"
+          }
+        }
+      }
+    },
+    "Unlock": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁"
+          }
+        }
+      }
+    },
+    "Unlock Now": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "立即解锁"
+          }
+        }
+      }
+    },
+    "Unlock with %@": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用%@ 解锁"
+          }
+        }
+      }
+    },
+    "Unlock with Password": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "用密码解锁"
+          }
+        }
+      }
+    },
+    "Unlock “%@”": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁“%@”"
+          }
+        }
+      }
+    },
+    "Unlocked": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "已解锁"
+          }
+        }
+      }
+    },
+    "Unlocked vaults appear in the Files app under Browse › Locations. Locked vaults are only encrypted data.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁的保险库会出现在“文件”App 的“浏览 › 位置”里。上锁的保险库只是一堆加密数据。"
+          }
+        }
+      }
+    },
+    "Unlocked vaults lock again %lld minutes after you unlock them or leave FolderSafe — also while FolderSafe is closed.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁或离开 FolderSafe %lld 分钟后，已解锁的保险库会重新上锁，FolderSafe 没有打开时也一样。"
+          }
+        }
+      }
+    },
+    "Use App's Documents Folder (Debug)": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用 App 的文稿文件夹（调试）"
+          }
+        }
+      }
+    },
+    "Use Recovery Phrase": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "使用找回短语"
+          }
+        }
+      }
+    },
+    "Use at least 8 characters, without line breaks.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "至少 8 个字符，不能包含换行。"
+          }
+        }
+      }
+    },
+    "Vault": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库"
+          }
+        }
+      }
+    },
+    "Vault Password": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库密码"
+          }
+        }
+      }
+    },
+    "Vault Settings": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库设置"
+          }
+        }
+      }
+    },
+    "Vault not found": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "找不到保险库"
+          }
+        }
+      }
+    },
+    "Vaults are compatible with Cryptomator vault format 8, so your files aren't tied to this app. FolderSafe is independent and not affiliated with Cryptomator.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库兼容 Cryptomator 第 8 版保险库格式，你的文件不会被这个 App 绑死。FolderSafe 是独立开发的 App，与 Cryptomator 没有关联。"
+          }
+        }
+      }
+    },
+    "Vaults stay unlocked until you lock them. Turning on auto-lock is recommended.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库会一直保持解锁，直到你手动上锁。建议开启自动上锁。"
+          }
+        }
+      }
+    },
+    "Version": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "版本"
+          }
+        }
+      }
+    },
+    "Weak": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "弱"
+          }
+        }
+      }
+    },
+    "Website": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "官网"
+          }
+        }
+      }
+    },
+    "While a vault is unlocked, apps on this iPhone can read its files. Encryption isn't a backup. If you lose both your password and your recovery phrase, nobody can recover your files.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库解锁期间，这台 iPhone 上的 App 都能读取其中的文件。加密不等于备份。如果密码和找回短语都丢了，任何人都无法找回你的文件。"
+          }
+        }
+      }
+    },
+    "While a vault is unlocked, apps on this iPhone that can use the Files app can read its files. Lock it when you're done.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库解锁期间，这台 iPhone 上能使用“文件”App 的 App 都能读取其中的文件。用完请上锁。"
+          }
+        }
+      }
+    },
+    "Word %lld": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "第 %lld 个词"
+          }
+        }
+      }
+    },
+    "Write down your recovery phrase": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "抄下你的找回短语"
+          }
+        }
+      }
+    },
+    "Write these 12 words on paper, in order, and keep them somewhere safe. Your old phrase no longer works.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "请按顺序把这 12 个单词抄在纸上，妥善保管。旧短语已失效。"
+          }
+        }
+      }
+    },
+    "You'll use this password to unlock the vault. Use at least 8 characters; a longer passphrase is stronger.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "解锁保险库时要用这个密码。至少 8 个字符，越长越安全。"
+          }
+        }
+      }
+    },
+    "Your New Recovery Phrase": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的新找回短语"
+          }
+        }
+      }
+    },
+    "Your old password will stop working. The recovery phrase stays the same.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "旧密码将失效，找回短语保持不变。"
+          }
+        }
+      }
+    },
+    "Your password and keys never leave this device. Not even we can open your vaults.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "你的密码和钥匙不会离开这台设备，连我们也打不开你的保险库。"
+          }
+        }
+      }
+    },
+    "Your recovery phrase and Face ID keep working. Other devices that use this vault will need the new password.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "找回短语和面容 ID 继续有效。其他设备上使用这个保险库时需要用新密码。"
+          }
+        }
+      }
+    },
+    "Your vault is ready": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "保险库已就绪"
+          }
+        }
+      }
+    },
+    "iCloud Drive": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud 云盘"
+          }
+        }
+      }
+    },
+    "iCloud Drive › Documents": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "iCloud 云盘 › 文稿"
+          }
+        }
+      }
+    },
+    "word1 word2 word3 …": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "单词1 单词2 单词3 …"
+          }
+        }
+      }
+    },
+    "“%@” is in %@. It's locked until you unlock it.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%1$@”位于%2$@，在你解锁之前一直保持上锁。"
+          }
+        }
+      }
+    },
+    "“%@” is locked, but some recent changes from the Files app couldn't be saved into it yet. They'll be saved the next time you unlock this vault. Until then, copies of those files remain on this iPhone.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@”已上锁，但“文件”App 里最近的部分改动还没能写入。下次解锁这个保险库时会继续写入；在那之前，这些文件的副本仍留在这台 iPhone 上。"
+          }
+        }
+      }
+    },
+    "“%@” wasn't removed: some changes from the Files app still need to be saved into it. Unlock it once so they can be saved, then remove it.": {
+      "localizations": {
+        "zh-Hans": {
+          "stringUnit": {
+            "state": "translated",
+            "value": "“%@”没有移除：“文件”App 里还有改动没写入它。请先解锁一次让改动写入，再移除。"
+          }
+        }
+      }
+    }
+  },
+  "version": "1.0"
+}

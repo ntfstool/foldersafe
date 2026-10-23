@@ -1,0 +1,168 @@
+# FolderSafe 的 Xcode 工程（XcodeGen 生成：xcodegen generate）。macOS App + FSKit 扩展 + File Provider 扩展，iPhone App + File Provider 扩展。
+# 内核在 ../foldersafe_apple_core（SwiftPM 包 FolderSafeCore）。不要手改 .xcodeproj，改这个文件后重新生成。
+# Team ID、Bundle ID 前缀、App Group、钥匙串共享组都在 Config/Signing.xcconfig（开源版只改那一个文件就能自己签名编译）。
+name: FolderSafe
+options:
+  bundleIdPrefix: app.foldersafe
+  developmentLanguage: en
+  knownRegions: [en, zh-Hans, Base]
+  createIntermediateGroups: true
+  deploymentTarget:
+    macOS: "13.0"
+    iOS: "17.0"
+configFiles:
+  Debug: Config/Signing.xcconfig
+  Release: Config/Signing.xcconfig
+  AppStore: Config/Signing.xcconfig
+configs:
+  Debug: debug
+  Release: release        # macOS 直装版（Developer ID）；iOS 的 App Store 版
+  AppStore: release       # Mac App Store 版（沙盒，只用 File Provider）
+settings:
+  base:
+    CODE_SIGN_STYLE: Automatic
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "2"
+    SWIFT_VERSION: "5.0"
+    ENABLE_USER_SCRIPT_SANDBOXING: YES
+    DEAD_CODE_STRIPPING: YES
+    INFOPLIST_KEY_NSHumanReadableCopyright: "© 2026 FolderSafe"
+  configs:
+    AppStore:
+      SWIFT_ACTIVE_COMPILATION_CONDITIONS: APPSTORE
+packages:
+  FolderSafeCore:
+    path: ../foldersafe_apple_core
+targets:
+  # ---------- macOS ----------
+  FolderSafeMac:
+    type: application
+    platform: macOS
+    sources:
+      - path: Mac/App
+      - path: Shared
+    dependencies:
+      - package: FolderSafeCore
+        product: FolderSafeCore
+      - target: FolderSafeFSKit
+      - target: FolderSafeMacFileProvider
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(FS_BUNDLE_PREFIX).mac
+        INFOPLIST_FILE: Config/App-Info.plist
+        PRODUCT_NAME: FolderSafe
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_CFBundleDisplayName: FolderSafe
+        CODE_SIGN_ENTITLEMENTS: Config/FolderSafeMac.entitlements
+        ENABLE_HARDENED_RUNTIME: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+  # Mac App Store 版：同一套源码与 bundle ID，但不嵌入 FSKit 扩展（沙盒里挂载不了），只用 File Provider。
+  FolderSafeMacAppStore:
+    type: application
+    platform: macOS
+    sources:
+      - path: Mac/App
+      - path: Shared
+    dependencies:
+      - package: FolderSafeCore
+        product: FolderSafeCore
+      - target: FolderSafeMacFileProvider
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(FS_BUNDLE_PREFIX).mac
+        INFOPLIST_FILE: Config/App-Info.plist
+        PRODUCT_NAME: FolderSafe
+        PRODUCT_MODULE_NAME: FolderSafeMac
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        INFOPLIST_KEY_CFBundleDisplayName: FolderSafe
+        CODE_SIGN_ENTITLEMENTS: Config/FolderSafeMac-AppStore.entitlements
+        ENABLE_HARDENED_RUNTIME: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        SWIFT_ACTIVE_COMPILATION_CONDITIONS: APPSTORE $(inherited)
+  FolderSafeFSKit:
+    type: extensionkit-extension
+    platform: macOS
+    deploymentTarget: "26.0"
+    sources:
+      - path: Mac/FSKit
+      - path: Shared
+    dependencies:
+      - package: FolderSafeCore
+        product: FolderSafeCore
+      - sdk: FSKit.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(FS_BUNDLE_PREFIX).mac.fskit
+        PRODUCT_NAME: FolderSafeFS
+        INFOPLIST_FILE: Config/FSKit-Info.plist
+        CODE_SIGN_ENTITLEMENTS: Config/FolderSafeFSKit.entitlements
+        ENABLE_HARDENED_RUNTIME: YES
+  FolderSafeMacFileProvider:
+    type: app-extension
+    platform: macOS
+    sources:
+      - path: FileProvider
+      - path: Shared
+    dependencies:
+      - package: FolderSafeCore
+        product: FolderSafeCore
+      - sdk: FileProvider.framework
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(FS_BUNDLE_PREFIX).mac.fileprovider
+        PRODUCT_NAME: FolderSafeFileProvider
+        INFOPLIST_FILE: Config/FileProvider-mac-Info.plist
+        # 直装版（Debug / Release）：App 不在沙盒里，交接不了访问权，扩展靠沙盒例外（家目录、/Volumes）打开 vault（见文件内说明）。
+        # Debug 也用这份，否则 Debug 里"不在沙盒的 App + 没有例外的扩展"这种从不发布的组合永远打不开 vault。
+        CODE_SIGN_ENTITLEMENTS: Config/FileProvider-mac-Direct.entitlements
+        ENABLE_HARDENED_RUNTIME: YES
+      configs:
+        AppStore:
+          CODE_SIGN_ENTITLEMENTS: Config/FileProvider-mac.entitlements          # App Store 版：App 在沙盒里，只靠 XPC 交接访问权
+  # ---------- iOS ----------
+  FolderSafeiOS:
+    type: application
+    platform: iOS
+    sources:
+      - path: iOS/App
+      - path: Shared
+    dependencies:
+      - package: FolderSafeCore
+        product: FolderSafeCore
+      - target: FolderSafeiOSFileProvider
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(FS_BUNDLE_PREFIX).ios
+        INFOPLIST_FILE: Config/App-Info.plist
+        PRODUCT_NAME: FolderSafe
+        GENERATE_INFOPLIST_FILE: YES
+        TARGETED_DEVICE_FAMILY: "1"
+        INFOPLIST_KEY_CFBundleDisplayName: FolderSafe
+        INFOPLIST_KEY_UILaunchScreen_Generation: YES
+        INFOPLIST_KEY_UIApplicationSceneManifest_Generation: YES
+        INFOPLIST_KEY_UISupportedInterfaceOrientations: UIInterfaceOrientationPortrait
+        INFOPLIST_KEY_NSFaceIDUsageDescription: "Use Face ID to unlock your vaults."
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.utilities
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+        CODE_SIGN_ENTITLEMENTS: Config/FolderSafeiOS.entitlements
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+
+  FolderSafeiOSFileProvider:
+    type: app-extension
+    platform: iOS
+    sources:
+      - path: FileProvider
+      - path: Shared
+    dependencies:
+      - package: FolderSafeCore
+        product: FolderSafeCore
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: $(FS_BUNDLE_PREFIX).ios.fileprovider
+        PRODUCT_NAME: FolderSafeFileProvider
+        INFOPLIST_FILE: Config/FileProvider-ios-Info.plist
+        CODE_SIGN_ENTITLEMENTS: Config/FileProvider-ios.entitlements

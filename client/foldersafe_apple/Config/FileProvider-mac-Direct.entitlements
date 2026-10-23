@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!-- 直装版（Debug、Release / Developer ID）的 File Provider 扩展：在 App Store 版的基础上多两条沙盒例外，
+     让扩展能直接打开用户放在家目录或外接盘上的 vault。
+     直装版 App 不在沙盒里，它经 XPC 发给扩展的 URL 不带沙盒访问权（2026-10-23 实测：扩展 deny file-read-data），
+     所以直装版只能靠这两条例外；XPC 交接只用来确认扩展读得到（读不到时 App 提示把 vault 挪到家目录或外接盘）。
+     App Store 版（AppStore 配置）用 FileProvider-mac.entitlements：App 在沙盒里，靠 XPC 交接带访问权的 URL。 -->
+<plist version="1.0">
+<dict>
+	<key>com.apple.security.application-groups</key>
+	<array><string>$(FS_APP_GROUP)</string></array>
+	<key>keychain-access-groups</key>
+	<array><string>$(AppIdentifierPrefix)$(FS_BUNDLE_PREFIX).shared</string></array>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.security.files.bookmarks.app-scope</key>
+	<true/>
+	<key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+	<array><string>/</string></array>
+	<key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
+	<array><string>/Volumes/</string></array>
+</dict>
+</plist>

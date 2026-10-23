@@ -1,0 +1,14 @@
+// Signing and identifiers for every target (applied to all configurations via project.yml → configFiles).
+// To build FolderSafe yourself: set your Team ID and a bundle-ID prefix you own, then run `xcodegen generate`.
+// Everything else (bundle IDs, App Groups, keychain group, Info.plist keys read by SharedConfig.swift) is derived below.
+
+DEVELOPMENT_TEAM = YOUR_TEAM_ID
+FS_BUNDLE_PREFIX = com.example.foldersafe
+
+// ---- derived; normally no need to edit ----
+// App Group shared by the app and its extensions (macOS: team-prefixed; iOS: group.*).
+FS_APP_GROUP[sdk=macosx*] = $(DEVELOPMENT_TEAM).$(FS_BUNDLE_PREFIX)
+FS_APP_GROUP[sdk=iphoneos*] = group.$(FS_BUNDLE_PREFIX)
+FS_APP_GROUP[sdk=iphonesimulator*] = group.$(FS_BUNDLE_PREFIX)
+// Shared keychain access group (entitlements: $(AppIdentifierPrefix)$(FS_BUNDLE_PREFIX).shared).
+FS_KEYCHAIN_GROUP = $(DEVELOPMENT_TEAM).$(FS_BUNDLE_PREFIX).shared

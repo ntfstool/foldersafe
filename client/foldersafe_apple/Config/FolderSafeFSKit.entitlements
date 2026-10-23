@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>com.apple.security.application-groups</key>
+	<array><string>$(FS_APP_GROUP)</string></array>
+	<key>keychain-access-groups</key>
+	<array><string>$(AppIdentifierPrefix)$(FS_BUNDLE_PREFIX).shared</string></array>
+	<key>com.apple.security.app-sandbox</key>
+	<true/>
+	<key>com.apple.developer.fskit.fsmodule</key>
+	<true/>
+	<!-- FSKit 扩展只在直装版（Developer ID）里：mount 传进来的 vault 路径不带沙盒授权，
+	     所以允许读写家目录和外接盘上的 vault（Mac App Store 版不含这个扩展）。 -->
+	<key>com.apple.security.temporary-exception.files.home-relative-path.read-write</key>
+	<array><string>/</string></array>
+	<key>com.apple.security.temporary-exception.files.absolute-path.read-write</key>
+	<array><string>/Volumes/</string></array>
+</dict>
+</plist>
