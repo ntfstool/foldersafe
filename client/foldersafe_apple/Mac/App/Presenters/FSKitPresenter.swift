@@ -88,7 +88,9 @@ public final class FSKitPresenter: VaultPresenter {
 
     /// 打开"系统设置 → 通用 → 登录项与扩展"（文件系统扩展在这一页里）。
     public static func openExtensionSettings() {
+        #if compiler(>=6.4)    // 这个接口在 macOS 27 SDK（Xcode 27）才有；Xcode 26 编译时跳过
         if #available(macOS 27.0, *), FSClient.shared.openFileSystemExtensionsSettings() { return }
+        #endif
         _ = try? run("/usr/bin/open", ["x-apple.systempreferences:com.apple.LoginItems-Settings.extension"], timeout: 5)
     }
 
